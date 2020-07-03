@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLSP1ModelStoreContainer" CdmEntityContainer="QLSP1Entities">
+    <EntitySetMapping Name="Phones">
+      <EntityTypeMapping TypeName="QLSP1Model.Phone">
+        <MappingFragment StoreEntitySet="Phone">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="GerneralNote" ColumnName="GerneralNote" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
